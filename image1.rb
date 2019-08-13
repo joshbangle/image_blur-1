@@ -1,5 +1,4 @@
 class Image
-  attr_accessor :x, :y, :new_image
 
   def initialize(array)
     @new_image = Array.new(array)
